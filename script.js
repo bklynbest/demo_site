@@ -17,3 +17,25 @@ subReddit.forEach(sub => {
   container.appendChild(dash);
   container.appendChild(item);
 });
+
+
+
+
+  const hot = "Hot"
+  const news = "News"
+  const rising = "Rising"
+  const controversial = "Controversial"
+  const tops = "Top"
+  const gilded = "Gilded"
+  const wiki = "Wiki"
+
+  const nav = [hot, news, rising, controversial, tops, gilded, wiki]
+  
+  const navbarContainer = document.querySelector('#topics');
+    nav.forEach(newNav => {
+    const item = document.createElement('li');
+    item.innerHTML = newNav;
+    navbarContainer.appendChild(item);
+  });
+
+
