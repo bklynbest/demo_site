@@ -1,0 +1,43 @@
+body {
+  padding:0;
+  margin:0;
+  font-family:verdana;
+}
+
+
+header {
+  background-color: #F0F0F0;
+  border-bottom: solid black;
+  border-width: thin;
+  align-content:flex-start;
+}
+
+header ul {
+  margin: 0;
+  list-style-type:none;
+}
+
+header li {
+  display: inline;
+  font-size: 12px;
+  font-family:verdana;
+}
+
+header li:hover {
+  text-decoration: underline;
+}
+
+
+nav {
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: solid #5f99cf;
+  border-width: thin;
+  position: relative;
+}
+
+.reddit-pic {
+  height: 75px;
+  width: 200px;
+}
+
